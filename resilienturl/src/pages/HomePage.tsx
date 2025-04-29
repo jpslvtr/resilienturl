@@ -112,7 +112,7 @@ function HomePage() {
                                         navigator.clipboard.writeText(resilientUrl);
                                         alert('Copied to clipboard!');
                                     }}
-                                    style={{ marginTop: '1rem', backgroundColor: '#2ecc71' }}
+                                    style={{ marginTop: '1rem' }}
                                 >
                                     Copy to Clipboard
                                 </button>

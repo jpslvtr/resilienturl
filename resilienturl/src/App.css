@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #3498db;
-  --secondary-color: #2ecc71;
+  --primary-color: #000000;
+  --secondary-color: #000000;
   --background-color: #f9f9f9;
-  --text-color: #333;
+  --text-color: #000000;
   --border-color: #ddd;
 }
 
@@ -34,7 +34,7 @@ header {
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
-  color: var(--primary-color);
+  color: #000000;
   text-decoration: none;
 }
 
@@ -52,7 +52,7 @@ header {
   font-size: 1.2rem;
   max-width: 700px;
   margin: 0 auto 2rem auto;
-  color: #666;
+  color: #000000;
 }
 
 .tools-container {
@@ -72,7 +72,7 @@ header {
 }
 
 .tool-card h2 {
-  color: var(--primary-color);
+  color: #000000;
   margin-bottom: 1rem;
 }
 
@@ -95,7 +95,7 @@ input[type="url"] {
 }
 
 button {
-  background-color: var(--primary-color);
+  background-color: #555555;
   color: white;
   border: none;
   border-radius: 4px;
@@ -106,7 +106,7 @@ button {
 }
 
 button:hover {
-  background-color: #2980b9;
+  background-color: #777777;
 }
 
 .result {
@@ -114,7 +114,12 @@ button:hover {
   padding: 1rem;
   background-color: #f0f8ff;
   border-radius: 4px;
-  border-left: 4px solid var(--primary-color);
+  border-left: 4px solid #000000;
+}
+
+.result a {
+  color: #000000;
+  text-decoration: underline;
 }
 
 .cli-instructions {
@@ -130,7 +135,7 @@ footer {
   padding: 2rem 0;
   margin-top: 3rem;
   border-top: 1px solid var(--border-color);
-  color: #666;
+  color: #000000;
 }
 
 /* Mobile responsiveness */
